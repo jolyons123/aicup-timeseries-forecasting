@@ -1,0 +1,26 @@
+{
+  "model": "nnar",
+  "grid_batch_norm": [
+    true,false
+  ],
+  "grid_dropout": [
+    0,0.2,0.4
+  ],
+  "grid_n": [
+    8,16,64,128
+  ],
+  "grid_activation": [
+    "selu",
+    "relu",
+    "swish"
+  ],
+  "grid_input_width_param": [
+    14
+  ],
+  "grid_p_param": [
+    1,2,6,7
+  ],
+  "grid_m_param": [
+    6,7,14
+  ]
+}

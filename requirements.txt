@@ -1,0 +1,11 @@
+matplotlib==3.5.1
+numpy==1.22.3
+pandas==1.4.2
+plotly==5.8.0
+scikit_learn==1.1.1
+statsmodels==0.13.2
+tensorflow==2.9.1
+tensorflow_addons==0.17.1
+tensorflow_cpu==2.8.0
+tqdm==4.64.0
+tsfresh==0.19.0
