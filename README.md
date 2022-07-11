@@ -1,6 +1,6 @@
 # Team Aleph Omega Analytics solution (John Lyons, Florian Weiß, Max Weber, Benedict Schwind)
 
-## Trading Hub Europe Chalange
+## Trading Hub Europe Challange
 
 This repository contains:
 - Training data used for competition
