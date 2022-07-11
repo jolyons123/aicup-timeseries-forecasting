@@ -7,9 +7,17 @@ This repository contains:
 - Source code to preprocess data and make prediction
 - Source code to impute some of the features which **can** lead to an improvement of the score (rlm_imputation, exit_imputation, entry_imputation)
 
-### Main idea
-
 ### How to run
+- Install python requirements from requirements.txt
+- Open the corresponding notebook for either 1-day or 4-day-ahead prediction
+- Tweak parameters in "model prediction area". "repeats" controls how often to look for best epochs and best seed for current slot prediction (using a mini val which is 25 days before prediction slot). You can also control whether or not do training for every slot (i.e. only train for every nth slot)
+- Run each cell sequentially
+
+### Code notes
+The code runs smoothly, with the exception that it is difficult to find the right code locations for appropriate configurations.
+This is due to the fact that there are exams at the TH Rosenheim at the deadline and therefore only little time was left for cleaning up the code.
+
+The gridsearch script is not at the same level as the prediction generation scripts. This is because it has not been used since it figured out the best model for the task at hand. However, it may be used in future work to try out different combinations.
 
 ### How to generate rlm_imputation, exit_imputation, entry_imputation
 
