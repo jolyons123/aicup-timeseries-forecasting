@@ -33,4 +33,4 @@ This repository contains:
 ### How to run
 Unzip the data folder an run the two R scripts to generate two csv files which contains the forecasts for on-demand/regular task.
 
-To reproduce the data preparation steps execute the jupyter notebooks and provide
+To reproduce the data preparation steps, unzip raw data in 30data/db_regio_bus/data.zip and execute the jupyter notebooks and provide
